@@ -1,0 +1,31 @@
+[
+
+    
+
+    {"Fid":1,"Fname": "Andra Dosa","Fprice":50, "Fimage":"Andra Dosa.JPG"},
+    {"Fid":2,"Fname": "Fish Fry","Fprice":150,"Fimage":"Andra's Chepala iguru.jpg"},
+    {"Fid":3,"Fname": "Bommidayila Pulusu","Fprice":250,"Fimage":"Bommidayila Pulusu.jpg"},
+    {"Fid":4,"Fname": "Chicken salna","Fprice":290,"Fimage":"Chicken_salna.jpg"},
+    {"Fid":5,"Fname": "coorg pong","Fprice":300,"Fimage":"coorg-pand_1.jpg"},
+    {"Fid":6,"Fname": "Egg Slice cake","Fprice":120,"Fimage":"Egg-slice-cake.jpg"},
+    {"Fid":7,"Fname": "kerala fish fry","Fprice":350,"Fimage":"fish_fry.jpg"},
+    {"Fid":8,"Fname": "fish molee","Fprice":470,"Fimage":"fish-molee.jpg"},
+    {"Fid":9,"Fname": "French Fries","Fprice":80,"Fimage":"fried-meat.jpg"},
+    {"Fid":10,"Fname": "Fried Meat","Fprice":160,"Fimage":"fried-meat.jpg"},
+    {"Fid":11,"Fname": "Green Ice Cream","Fprice":210,"Fimage":"green-ice-cream.jpg"},
+    {"Fid":12,"Fname": "Grilled Meats","Fprice":260,"Fimage":"grilled-meats.jpg"},
+    {"Fid":13,"Fname": "Hyd Chicken Biryani","Fprice":145,"Fimage":"hyderabadi_Chicken_Biryanijpg.jpg"},
+    {"Fid":14,"Fname": "Idly","Fprice":30,"Fimage":"Idly.JPG"},
+    {"Fid":15,"Fname": "Karimini","Fprice":220,"Fimage":"kariminjpg.jpg"},
+    {"Fid":16,"Fname": "Kerala dosa","Fprice":60,"Fimage":"Kerala_dosa.jpg"},
+    {"Fid":17,"Fname": "Mangalorea","Fprice":80,"Fimage":"payyoli chicken.jpg"},
+    {"Fid":18,"Fname": "Poyyoli Chicken","Fprice":260,"Fimage":"payyoli chicken.jpg"},
+    {"Fid":19,"Fname": "Pizza","Fprice":180,"Fimage":"pizza.jpg"},
+    {"Fid":20,"Fname": "Andra Rice","Fprice":60,"Fimage":"Rice_dal.jpg"},
+    {"Fid":21,"Fname": "Soup","Fprice":50,"Fimage":"soup.jpg"},
+    {"Fid":22,"Fname": "Squid Fry","Fprice":315,"Fimage":"squid_Fry.jpg"},
+    {"Fid":23,"Fname": "Curd Rice","Fprice":30,"Fimage":"Curd_rice.jpg"},
+    {"Fid":24,"Fname": "Rava Kane Fish","Fprice":500,"Fimage":"Rava Kane Fish.jpg"}
+    
+
+]

@@ -1,0 +1,21 @@
+
+<div class="card_inner"  >
+    <div class="card_img">
+      <img src="../../../../../assets/Food_images/{{productItem.Fimage}}" >
+    </div>
+    <div class="card_bottom">
+        <div class="card_data">
+          <!-- <p class="title">{{fdata.Fname}} <br> <span>{{fdata.Fprice | currency:'INR'}}</span></p> -->
+          <p class="title">{{productItem.Fname}} <br> <span>{{productItem.Fprice | currency:'INR'}}</span></p>
+        </div>
+      <div class="add-cart">
+        
+        <button mat-flat-button color="primary" 
+        (click)="AddToCart()"
+        >Order Item </button>
+        
+        
+        
+      </div>
+    </div>
+  </div>

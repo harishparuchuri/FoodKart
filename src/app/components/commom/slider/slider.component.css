@@ -1,0 +1,21 @@
+img{
+   
+    width: 100%;
+    height: auto;
+    
+     
+  }
+  .container {
+      position: relative;
+      background-color:rgb(119, 113, 113);
+    }
+  .text-block {
+      position: absolute;
+      top: 70px;
+      left: 30px;
+      background-color: #112233;
+      color: white;
+      /* padding: 10px; */
+      font-size: 40px;
+      align-items: center;
+    }

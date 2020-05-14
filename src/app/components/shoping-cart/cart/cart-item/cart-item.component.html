@@ -1,0 +1,15 @@
+<!-- <span>{{cartItem.Fname}}</span> x <span>{{cartItem.qty}}</span>: <span>{{(cartItem.qty*cartItem.Fprice)|currency:'INR'}}</span> -->
+
+
+<div class="card_inner"  >
+    <div class="card_img">
+      <img src="../../../../assets/Food_images/{{cartItem.Fimage}}" >
+    </div>
+    <div class="card_bottom">
+        <div class="card_data">
+          <p class="title">{{cartItem.Fname}} <br> <span>{{cartItem.Fprice}}</span>
+              x{{cartItem.qty}}={{cartItem.Fprice*cartItem.qty|currency:'INR'}}
+          </p>
+        </div>                                                 
+    </div>
+</div>

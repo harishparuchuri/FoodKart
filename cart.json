@@ -1,0 +1,130 @@
+{
+  "CartItems": [
+    {
+      "product": {
+        "Fid": 2,
+        "Fname": "Fish Fry",
+        "Fprice": 150,
+        "Fimage": "Andra's Chepala iguru.jpg"
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "Fid": 1,
+        "Fname": "Andra Dosa",
+        "Fprice": 50,
+        "Fimage": "Andra Dosa.JPG"
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "Fid": 2,
+        "Fname": "Fish Fry",
+        "Fprice": 150,
+        "Fimage": "Andra's Chepala iguru.jpg"
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "Fid": 3,
+        "Fname": "Bommidayila Pulusu",
+        "Fprice": 250,
+        "Fimage": "Bommidayila Pulusu.jpg"
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "Fid": 4,
+        "Fname": "Chicken salna",
+        "Fprice": 290,
+        "Fimage": "Chicken_salna.jpg"
+      },
+      "id": 5
+    },
+    {
+      "product": {
+        "Fid": 19,
+        "Fname": "Pizza",
+        "Fprice": 180,
+        "Fimage": "pizza.jpg"
+      },
+      "id": 6
+    },
+    {
+      "product": {
+        "Fid": 18,
+        "Fname": "Poyyoli Chicken",
+        "Fprice": 260,
+        "Fimage": "payyoli chicken.jpg"
+      },
+      "id": 7
+    },
+    {
+      "product": {
+        "Fid": 3,
+        "Fname": "Bommidayila Pulusu",
+        "Fprice": 250,
+        "Fimage": "Bommidayila Pulusu.jpg"
+      },
+      "id": 8
+    },
+    {
+      "product": {
+        "Fid": 3,
+        "Fname": "Bommidayila Pulusu",
+        "Fprice": 250,
+        "Fimage": "Bommidayila Pulusu.jpg"
+      },
+      "id": 9
+    },
+    {
+      "product": {
+        "Fid": 3,
+        "Fname": "Bommidayila Pulusu",
+        "Fprice": 250,
+        "Fimage": "Bommidayila Pulusu.jpg"
+      },
+      "id": 10
+    },
+    {
+      "product": {
+        "Fid": 4,
+        "Fname": "Chicken salna",
+        "Fprice": 290,
+        "Fimage": "Chicken_salna.jpg"
+      },
+      "id": 11
+    },
+    {
+      "product": {
+        "Fid": 1,
+        "Fname": "Andra Dosa",
+        "Fprice": 50,
+        "Fimage": "Andra Dosa.JPG"
+      },
+      "id": 12
+    },
+    {
+      "product": {
+        "Fid": 1,
+        "Fname": "Andra Dosa",
+        "Fprice": 50,
+        "Fimage": "Andra Dosa.JPG"
+      },
+      "id": 13
+    },
+    {
+      "product": {
+        "Fid": 4,
+        "Fname": "Chicken salna",
+        "Fprice": 290,
+        "Fimage": "Chicken_salna.jpg"
+      },
+      "id": 14
+    }
+  ]
+}
