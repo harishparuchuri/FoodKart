@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {DatatransferService} from '../../../services/datatransfer.service';
 import { Product } from 'src/app/models/product';
-import {CartService} from '../../../services/cart.service';
-import {CartItem} from 'src/app/models/cartItem';
 
 
 
@@ -15,53 +13,50 @@ export class CartComponent implements OnInit {
 
   cartItem=[
 
-     //{"Fid":1,"Fname": "Andra Dosa","Fprice":50, "Fimage":"Andra Dosa.JPG","qty":10},
-    //  {"Fid":2,"Fname": "Fish Fry","Fprice":150,"Fimage":"Andra's Chepala iguru.jpg","qty":1},
-    //  {"Fid":3,"Fname": "Bommidayila Pulusu","Fprice":250,"Fimage":"Bommidayila Pulusu.jpg","qty":1},
-    //  {"Fid":4,"Fname": "Chicken salna","Fprice":290,"Fimage":"Chicken_salna.jpg","qty":1},
-    //  {"Fid":5,"Fname": "coorg pong","Fprice":300,"Fimage":"coorg-pand_1.jpg","qty":1}
     
   ];
 
   
 
   cartTotal=0;
-  constructor(private msg:DatatransferService,private CartService:CartService) { }
+  constructor(private msg:DatatransferService){}
+  ngOnInit(){
 
-  ngOnInit() {
-    this.handleSubscription();
-    this.LoadCartItem();
-    this.calCartTotal();
-  }
-
-  handleSubscription()
-  {
     this.msg.getMsg().subscribe((product: Product) => {
-      this.LoadCartItem()
-      
+      this.addProductToCart(product)
     })
   }
 
-  LoadCartItem()
-  {
+  addProductToCart(product: Product) {
 
-this.CartService.getCartItem().subscribe((items:CartItem[])=>{
+    let productExists = false
 
-  this.cartItem=items;
-  this.calCartTotal();
+    for (let i in this.cartItem) {
+      if (this.cartItem[i].Fid === product.Fid) {
+        this.cartItem[i].qty++
+        productExists = true
+        break;
+      }
+    }
 
-})
-
-  }
-
-  
-  calCartTotal(){
-
+    if (!productExists) {
+      this.cartItem.push({
+        Fid: product.Fid,
+        Fname: product.Fname,
+        qty: 1,
+        Fprice: product.Fprice,
+        Fimage:product.Fimage
+      })
+    }
+    
     this.cartTotal = 0
     this.cartItem.forEach(item => {
       this.cartTotal += (item.qty * item.Fprice)
 
     })
+
+    
   }
+
 
 }

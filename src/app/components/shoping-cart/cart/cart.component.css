@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 
 .container{
-    background-color: rgb(119, 113, 113);
+    background-color: #10A881;
 }
 
 * {
@@ -25,7 +25,7 @@
   background-color:#586776;
   border-radius: 40px;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
 
 }
 
@@ -33,7 +33,7 @@
 
 h1{
   width: 100%;
-  color:#D63031;
+  color:#192A56;
   text-align: center;
   font-weight: 900;
   padding :5px;
@@ -42,10 +42,11 @@ h1{
 .carthead,.bill{
   
   
-  background-color: #45CE30;
+  background-color: #FBD28B;
   padding:15px;
   border-radius:10px;
   text-align: center;
+  box-shadow: 0 0 10px#E74292;
 }
 
 .bills{
@@ -72,6 +73,21 @@ h1{
   
 }
 
+
+.order{
+  padding: 0 10px;
+  color: #FF3E4D;
+  background-color:#EAF0F1;
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.order:hover{
+  box-shadow: 0 0 10px black;
+  background-color: #AE1438;
+  color: #EAF0F1;
+  
+}
 
 @media (max-width: 1024px) {
    .card_item {

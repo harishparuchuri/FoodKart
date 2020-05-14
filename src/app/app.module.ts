@@ -22,6 +22,7 @@ import { ProductListComponent } from './components/shoping-cart/product-list/pro
 import { CartComponent } from './components/shoping-cart/cart/cart.component';
 import { CartItemComponent } from './components/shoping-cart/cart/cart-item/cart-item.component';
 import { ProductItemComponent } from './components/shoping-cart/product-list/product-item/product-item.component';
+import { OrderComponent } from './components/shoping-cart/cart/order/order.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ProductItemComponent } from './components/shoping-cart/product-list/pro
     CartComponent,
     CartItemComponent,
     ProductItemComponent,
+    OrderComponent,
     
     
     

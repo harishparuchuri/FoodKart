@@ -1,7 +1,7 @@
 import { Component, OnInit,Input } from '@angular/core';
 import { Product } from 'src/app/models/product';
 import {DatatransferService} from '../../../../services/datatransfer.service';
-import {CartService} from '../../../../services/cart.service';
+
 
 @Component({
   selector: 'app-product-item',
@@ -12,16 +12,14 @@ export class ProductItemComponent implements OnInit {
 
   @Input() productItem:Product
 
-  constructor(private msg:DatatransferService,
-              private CartService:CartService ) { }
+  constructor(private msg:DatatransferService){ }
+  ngOnInit(){
 
-  ngOnInit(): void {
+
   }
 
-  AddToCart()
-  {
-    this.CartService.AddToCart(this.productItem).subscribe(()=>{
-      this.msg.sendMsg(this.productItem)
-    } ) }
+  handleAddToCart(){
 
+    this.msg.sendMsg(this.productItem)
+  }
 }
