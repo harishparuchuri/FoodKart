@@ -180,7 +180,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AppComponent = function AppComponent() {
       _classCallCheck(this, AppComponent);
 
-      this.title = 'Abiruchi';
+      this.title = 'FoodKart';
     };
 
     AppComponent.ɵfac = function AppComponent_Factory(t) {

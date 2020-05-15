@@ -88,7 +88,7 @@ __webpack_require__.r(__webpack_exports__);
 
 class AppComponent {
     constructor() {
-        this.title = 'Abiruchi';
+        this.title = 'FoodKart';
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
